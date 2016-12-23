@@ -1,0 +1,11 @@
+<html>
+    <div>
+        REsponse
+        <p>
+            <%= msg %>
+            <%  if(response_code == 1) {  %>
+            <a href="/download?file=<%= filename %>">Download</a>
+            <% } %>
+        </p>
+    </div>
+</html>
